@@ -8,6 +8,15 @@ namespace TrueCoders
         public string LastName { get; set; }
         public string HairColor { get; set; }
 
+        //public People(int age, string first, string last, string hair) // Example of another way
+        /*{
+            Age = age
+            FirstName = first
+            LastName = last
+            HairColor = hair;
+
+        }*/
+
     
     }
 }

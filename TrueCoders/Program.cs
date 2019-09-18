@@ -32,16 +32,18 @@ namespace TrueCoders
                 person3.LastName = "Griffin";
                 person3.HairColor = "black";
 
+            //var person4 = new People(8, "Kenny", "McCormick", "Brown"); // Ex of another way 
 
 
-            List<People> trueCoders = new List<People>();
+
+            List<People> trueCoders = new List<People>(); // Another way to list is: var trueCoders = new List <People>();
             trueCoders.Add(person1);
             trueCoders.Add(person2);
             trueCoders.Add(person3);
 
             foreach (var human in trueCoders)
             {
-                Console.WriteLine($"Hello my name is {human.FirstName} {human.LastName}, I am {human.Age}, and my hair is {human.HairColor}! Screw you guys I'm going home!");
+                Console.WriteLine($"Hello my name is {human.FirstName} {human.LastName}, I am {human.Age}, and my hair is {human.HairColor}!");
             }
 
         
